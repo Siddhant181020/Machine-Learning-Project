@@ -12,30 +12,32 @@ Context: The bank has a growing customer base. The bank wants to increase borrow
 
 Attribute Information:
 
-ID: Customer ID
-Age: Customer's age in completed years
-Experience: #years of professional experience
-Income: Annual income of the customer ($000)
-ZIP Code: Home Address ZIP code.
-Family: Family size of the customer
-CCAvg: Avg. spending on credit cards per month ($000)
-Education: Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional
-Mortgage: Value of house mortgage if any. ($000)
-Personal Loan: Did this customer accept the personal loan offered in the last campaign?
-Securities Account: Does the customer have a securities account with the bank?
-CD Account: Does the customer have a certificate of deposit (CD) account with the bank?
-Online: Does the customer use internet banking facilities?
-Credit card: Does the customer use a credit card issued by the bank?
+1. ID: Customer ID
+2. Age: Customer's age in completed years
+3. Experience: #years of professional experience
+4. Income: Annual income of the customer ($000)
+5. ZIP Code: Home Address ZIP code.
+6. Family: Family size of the customer
+7. CCAvg: Avg. spending on credit cards per month ($000)
+8. Education: Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional
+9. Mortgage: Value of house mortgage if any. ($000)
+10. Personal Loan: Did this customer accept the personal loan offered in the last campaign?
+11. Securities Account: Does the customer have a securities account with the bank?
+12. CD Account: Does the customer have a certificate of deposit (CD) account with the bank?
+13. Online: Does the customer use internet banking facilities?
+14. Credit card: Does the customer use a credit card issued by the bank?
+
 Objective: The classification goal is to predict the likelihood of a liability customer buying personal loans.
 
 Steps and Tasks:
 
-Import the datasets and libraries, check shape and datatype.
-Visualise the dataset using plotting using heatmaps and plots. You can study data distributions for each attribute as well.
-Clean the dataset by removing missing values and other things.
-Transform attributes into numerical values and other necessary transformations
-Normalise your data and split the data into training, validation and test set in the appropriate ratio.
-Use linear regression, Support Vector Regressor for training and get errors.
-Use Decision Tree Regressor and Random Forest Regressors.
-Build an artificial neural network and train it with different layers and hyperparameters. Experiment a little. Use keras.
-Pick the best model based on error as well as generalisation. 10.Save your model and predict on the test set.
+1. Import the datasets and libraries, check shape and datatype.
+2. Visualise the dataset using plotting using heatmaps and plots. You can study data distributions for each attribute as well.
+3. Clean the dataset by removing missing values and other things.
+4. Transform attributes into numerical values and other necessary transformations
+5. Normalise your data and split the data into training, validation and test set in the appropriate ratio.
+6. Use linear regression, Support Vector Regressor for training and get errors.
+7. Use Decision Tree Regressor and Random Forest Regressors.
+8. Build an artificial neural network and train it with different layers and hyperparameters. Experiment a little. Use keras.
+9. Pick the best model based on error as well as generalisation. 
+10. Save your model and predict on the test set.
