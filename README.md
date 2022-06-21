@@ -1,5 +1,6 @@
-#Machine_Learning_Project_Tasks
-ML-InternshipStudio Internship studio project on machine learning
+# Machine_Learning_Project_Tasks
+ML-InternshipStudio 
+Internship studio project on machine learning
 
 Project Title: Marketing Campaign for Banking Products
 
